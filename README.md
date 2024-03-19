@@ -10,7 +10,7 @@ The steps used to run the full program are:-
 
 ### Login
 ```bash
-curl http://localhost:8000/login -d '{"email": "RealUser@ymail.com", "pw": "440RealME"}' -H 'Content-Type: application/json'
+curl http://localhost:8000/login -d '{"email": "realuser@ymail.com", "pw": "440RealME"}' -H 'Content-Type: application/json'
 
 {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxIiwicm9sZSI6IlVzZXIiLCJleHAiOjE2MDMxMzQwODl9.dWnt5vfcGdwypEQUr3bLMrZYfdyxj3v6-io6VREWHXebMUCKBddf9xGcz4vHrCXruzx42zrS3Kygiqw3xV8W-A"}
 ```
